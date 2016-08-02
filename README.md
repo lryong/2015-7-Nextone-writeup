@@ -63,8 +63,7 @@ for i in range(int(1e9**0.5),100000):
 	if len(set(str(i*i)))==10:
 		print i
 		break
-    ```
-
+```
 解得结果:32043,提交得到flag:flag{a85c3504-8f63-4015-a516-8f4e03342e38}
 
 #### 309	ASCII与二进制	ASCII码中表示一个字符需要____位二进制码?http://106.75.8.230:16901/
@@ -154,7 +153,7 @@ for a in val:
 	if req.status_code==200:
 		print 'find url:'
 		print url
-    ```
+```
 找到gift.rar,file命令看到是zip文件,解压得到flag:flag{2d33a69d-411f-411a-8da4-238c8adeb4fb}
 
 #### 329	登录	不仅仅是登录  http://106.75.8.230:10211/
